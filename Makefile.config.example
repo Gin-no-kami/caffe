@@ -23,7 +23,7 @@ CXXFLAGS := -std=c++14 -fpermissive
 # ALLOW_LMDB_NOLOCK := 1
 
 # Uncomment if you're using OpenCV 3
-OPENCV_VERSION := 4
+OPENCV_VERSION := 3
 
 # To customize your choice of compiler, uncomment and set the following.
 # N.B. the default for Linux is g++ and the default for OSX is clang++
@@ -118,4 +118,4 @@ DISTRIBUTE_DIR := distribute
 TEST_GPUID := 0
 
 # enable pretty build (comment to see full commands)
-Q ?= @
+# Q ?= @
